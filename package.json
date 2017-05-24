@@ -1,0 +1,29 @@
+{
+  "name": "Typora2perfect",
+  "version": "0.1.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --debug",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiuYueKai/Typora2perfect.git"
+  },
+  "author": "LiuYueKai (liuyuekainihao@163.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LiuYueKai/Typora2perfect.git/issues"
+  },
+  "homepage": "https://github.com/LiuYueKai/Typora2perfect.git#readme",
+  "devDependencies": {
+    "electron": "^1.6.8",
+    "electron-reload": "latest"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "ztree": "^3.5.24"
+  }
+}
