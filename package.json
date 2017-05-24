@@ -6,6 +6,7 @@
   "scripts": {
     "start": "electron .",
     "dev": "electron . --debug",
+    "package":"electron-packager ./ Typora2perfect -all",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 "
   },
   "repository": {
@@ -20,7 +21,9 @@
   "homepage": "https://github.com/LiuYueKai/Typora2perfect.git#readme",
   "devDependencies": {
     "electron": "^1.6.8",
-    "electron-reload": "latest"
+    "electron-packager": "^8.7.0",
+    "electron-reload": "latest",
+    "glob": "^7.1.2"
   },
   "dependencies": {
     "jquery": "^3.2.1",
