@@ -2,7 +2,7 @@ const ipc = require('electron').ipcMain;
 const dialog = require('electron').dialog;
 const fs = require('fs');
 const path = require("path");
-// const execSync = require('child_process').exec;
+const execSync = require('child_process').exec;
 const {
     shell
 } = require('electron')
@@ -29,6 +29,7 @@ ipc.on('openByTypora', function(event, url) {
 
 function open(url) {
     shell.openItem(url)
+    // 通过命令行来启动程序
     // const getIdCMD = 'ps x | grep Typora';
     // execSync(getIdCMD, (error, stdout, stderr) => {
     //     if (error) {
@@ -42,12 +43,12 @@ function open(url) {
     //         if (error) {
     //             console.log(error)
     //         }
-    // const openCMD = 'open -a Typora  ' + url;
-    // execSync(openCMD, (error, stdout, stderr) => {
-    //     if (error) {
-    //         console.log(error)
-    //     }
-    // })
+    //         const openCMD = 'open -a Typora  ' + url;
+    //         execSync(openCMD, (error, stdout, stderr) => {
+    //             if (error) {
+    //                 console.log(error)
+    //             }
+    //         })
     //     })
     // })
 }

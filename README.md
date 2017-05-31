@@ -15,6 +15,9 @@ Solve the only pain points that Typora does not support the catalog, creating th
 * Support to select the root directory, according to the root directory display directory structure
 * Click on the directory node and open the corresponding document via Typora
 
+## TODO
+* It is not possible to open the Typora in this application, so the convenience is poor
+
 ## Quickstart
 
 ### Installation
