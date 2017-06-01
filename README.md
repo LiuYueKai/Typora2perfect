@@ -1,12 +1,7 @@
 
 # Typora2perfect
 
-[![npm version](https://img.shields.io/npm/v/Typora2perfect.svg)](https://www.npmjs.com/package/Typora2perfect)
-[![Build Status](https://img.shields.io/travis/LiuYueKai/Typora2perfect/master.svg)](https://travis-ci.org/LiuYueKai/Typora2perfect)
-[![devDependency Status](https://img.shields.io/david/dev/LiuYueKai/Typora2perfect.svg)](https://david-dm.org/LiuYueKai/Typora2perfect#info=devDependencies)
-[![NPM downloads](http://img.shields.io/npm/dm/Typora2perfect.svg?style=flat)](https://npmjs.org/package/Typora2perfect)
-
-[English Document](https://github.com/LiuYueKai/Typora2perfect)
+[中文文档](https://github.com/LiuYueKai/Typora2perfect/blob/master/README_CN.md)
 
 ## Introduction
 Solve the only pain points that Typora does not support the catalog, creating the perfect MD editor。
