@@ -3,9 +3,7 @@ const dialog = require('electron').dialog;
 const fs = require('fs');
 const path = require("path");
 const execSync = require('child_process').exec;
-const {
-    shell
-} = require('electron')
+const shell = require('electron').shell
 var filesArr = [];
 ipc.on('open-file-dialog', function(event) {
     dialog.showOpenDialog({
