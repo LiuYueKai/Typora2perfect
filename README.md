@@ -4,7 +4,7 @@
 [中文文档](https://github.com/LiuYueKai/Typora2perfect/blob/master/README_CN.md)
 
 ## Introduction
-Solve the only pain points that Typora does not support the catalog, creating the perfect MD editor。
+Solve the only pain points that Typora does not support the catalog, creating the perfect MD editor
 
 ## Features
 * Support to select the root directory, according to the root directory display directory structure

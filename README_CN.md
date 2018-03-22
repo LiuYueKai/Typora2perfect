@@ -4,7 +4,7 @@
 [English Document](https://github.com/LiuYueKai/Typora2perfect)
 
 ## 介绍
-解决Typora不支持目录的唯一痛点，打造完美MD编辑器。
+解决Typora不支持目录的唯一痛点，打造完美MD编辑器
 
 ## 功能
 * 支持选择根目录，根据根目录显示目录结构

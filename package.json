@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/LiuYueKai/Typora2perfect.git#readme",
   "devDependencies": {
-    "electron": "^1.6.8",
+    "electron": "~1.8.2",
     "electron-packager": "^8.7.0",
     "electron-reload": "latest",
     "glob": "^7.1.2"
